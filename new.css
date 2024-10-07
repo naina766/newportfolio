@@ -182,18 +182,18 @@
         background-color: rgba(0, 0, 0, 1);
     }
   }
-  @media(max-width=2000px){
+  @media only screen and (max-width:2000px){
     html{
-    font-size: 90%;
+    font-size: 95%;
   }
   section{
-    width: 90%;
+    width: 98%;
   }
   nav{
     font-size: 2rem;
   }
   }
-  @media(width<=1400px){
+  @media only screen and (max-width:1400px){
     html{
         font-size:90%;
     }
@@ -206,7 +206,7 @@
   }
   
   
-  @media(width<=1300px) {
+  @media only screen and (max-width:1300px) {
     html {
         font-size:80%;
     }
@@ -219,7 +219,7 @@
         gap :0.1rem;
     }
   }
-  @media(width<=1220px){
+  @media only screen and (max-width:1220px){
     html{
         font-size: 75%;
     }
@@ -228,7 +228,7 @@
     }
   }
   
-  @media(width<=900px) {
+  @media only screen and (max-width:900px) {
     html {
         font-size: 60%;
     }
@@ -270,7 +270,7 @@
   }
   }
   
-  @media(width<=768px) {
+  @media only screen and (max-width:768px) {
     html {
         font-size: 50%;
     }
@@ -294,7 +294,7 @@
         height: auto;
     }
   }
-  @media(width<= 480px){
+  @media only screen and (max-width:480px){
     html{
         font-size: 40%;
     }
