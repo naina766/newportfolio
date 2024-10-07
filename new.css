@@ -184,10 +184,10 @@
   }
   @media only screen and (max-width:2000px){
     html{
-    font-size: 95%;
+    font-size: 90%;
   }
   section{
-    width: 95%;
+    width: 90%;
   }
   nav{
     font-size: 2rem;
